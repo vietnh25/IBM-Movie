@@ -1,0 +1,96 @@
+
+.wrapper {
+  background-color: black;
+  text-align: center;
+  width:100%;
+}
+
+
+/* card-content */
+#card-image{
+  min-width: 300px;
+  min-height: 450px;
+  opacity:1;
+}
+
+#card-content{
+  opacity:0;
+}
+
+#card:hover #card-image{
+  opacity:0.2;
+}
+
+#card:hover #card-content{
+  opacity:1;
+}
+
+#item-title{
+  text-decoration: none;
+  color: white;
+}
+
+#overview-text{
+  display: flex;
+  text-align: justify;
+  max-height: 125px;
+  overflow-y: scroll;
+}
+
+/* Pagination */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin:10px;
+}
+
+.pagination ul {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pagination li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.pagination li a {
+    outline: 0;
+    background-color: transparent;
+    color:white;
+}
+
+
+.pagination .active {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    z-index:0;
+}
+
+
+/* Modal */
+.Modal{
+ transition-delay: 10s;
+ transition: 20s;
+}
+
+#modal-head{
+  background-color: black;
+  color:white;
+}
+
+#modal-body{
+  background-color: black;
+  color:white;
+}
+
+.Zoom{
+  transition-duration: 20s;
+}
